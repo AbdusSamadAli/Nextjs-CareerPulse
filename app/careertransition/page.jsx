@@ -45,7 +45,7 @@ const CareerTransitionGuides = () => {
                 From Healthcare to Data Science
               </h4>
               <p className="text-gray-700 mb-4">
-                If you're in healthcare and want to switch to data science,
+                If you are in healthcare and want to switch to data science,
                 learn how your background in healthcare can be a strong asset in
                 data-driven roles and discover the tools and skills you need to
                 master.
@@ -80,7 +80,7 @@ const CareerTransitionGuides = () => {
               <p className="text-gray-700 mb-4">
                 Moving from customer service to project management can leverage
                 your problem-solving and communication skills. Discover the
-                project management tools and certifications you'll need.
+                project management tools and certifications you will need.
               </p>
               <Link
                 href="https://www.careershifters.org/success-stories/from-customer-services-to-project-management"
