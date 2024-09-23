@@ -81,31 +81,12 @@ export default function HomePage() {
               </div>
               <div className="bg-gray-100 rounded-lg p-6 shadow-lg">
                 <img
-                  src="/images/resumexample2.png"
-                  alt="Resume Sample 2"
-                  className="w-full h-48 object-cover mb-4 rounded-md"
-                />
-                <h3 className="text-xl font-semibold text-gray-800">
-                  Resume 2
-                </h3>
-                <p className="text-gray-600 mt-2">
-                  A sleek resume for a project manager position.
-                </p>
-                <a
-                  href="/images/resumexample.png"
-                  className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition"
-                >
-                  View Resume
-                </a>
-              </div>
-              <div className="bg-gray-100 rounded-lg p-6 shadow-lg">
-                <img
                   src="/images/resumexample3.png"
                   alt="Resume Sample 3"
                   className="w-full h-48 object-cover mb-4 rounded-md"
                 />
                 <h3 className="text-xl font-semibold text-gray-800">
-                  Resume 3
+                  Resume 2
                 </h3>
                 <p className="text-gray-600 mt-2">
                   A sleek resume for a marketing specialist position.
