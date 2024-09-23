@@ -1,6 +1,6 @@
 const { NextRequest, NextResponse } = require('next/server');
 const connectdb = require('@/libs/db'); // Import your database connection
-const { ResumeModel } = require('@/models/resume'); // Import your Resume model
+const { UserModel } = require('@/models/user'); // Import your User model
 
 async function POST(req) {
   try {
@@ -11,24 +11,24 @@ async function POST(req) {
     console.log('Request body:', body); // Debugging statement
 
     // Validate that required fields are provided
-    const { personalInfo, sections } = body;
-    if (!personalInfo || !sections || sections.length === 0) {
+    const { email, password } = body;
+    if (!email || !password) {
       return new NextResponse(
-        JSON.stringify({ message: 'Missing required fields: personalInfo or sections' }),
+        JSON.stringify({ message: 'Missing required fields: email or password' }),
         { status: 400, headers: { 'Content-Type': 'application/json' } }
       );
     }
 
-    // Create a new instance of the Resume model with the received data
-    const newResume = new ResumeModel({ personalInfo, sections });
+    // Create a new instance of the User model with the received data
+    const newUser = new UserModel({ email, password });
 
-    // Save the new resume to the database
-    await newResume.save();
+    // Save the new user to the database
+    await newUser.save();
 
     // Respond with a success message and the saved data
     const responseData = {
-      message: 'Resume created successfully',
-      data: newResume,
+      message: 'User created successfully',
+      data: newUser,
     };
 
     return new NextResponse(
