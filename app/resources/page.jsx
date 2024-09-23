@@ -34,8 +34,8 @@ const CareerResources = () => {
           <p className="text-lg mb-6 text-gray-700">
             Explore these valuable resources to boost your career, enhance your
             skills, and stay updated with the latest industry trends. Whether
-            you're looking for online courses, professional certifications, or
-            interactive coding lessons, you'll find something to fit your needs.
+            you are looking for online courses, professional certifications, or
+            interactive coding lessons, you will find something to fit your needs.
           </p>
 
           <div className="mb-8">
