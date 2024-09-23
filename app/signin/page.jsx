@@ -1,4 +1,4 @@
-// app/signin/page.jsx
+
 "use client";
 
 import { signIn } from 'next-auth/react';
@@ -6,7 +6,7 @@ import { signIn } from 'next-auth/react';
 export default function SignInPage() {
   const handleGoogleSignIn = async () => {
     try {
-      await signIn('google', { callbackUrl: '/' }); // Redirect to home page after sign-in
+      await signIn('google', { callbackUrl: '/' }); 
     } catch (error) {
       console.error("Error during sign-in:", error);
     }
