@@ -15,8 +15,8 @@ const OnlineDegrees = () => {
           <CardContent className="px-6 py-8">
             <p className="text-lg mb-6 text-gray-700">
               Boost your career by earning a degree from top universities
-              online. Whether you're pursuing Business, Technology, or
-              Healthcare, we’ve got you covered with the best degree options.
+              online. Whether you are pursuing Business, Technology, or
+              Healthcare, we have got you covered with the best degree options.
             </p>
 
             <div className="mb-8">
@@ -55,7 +55,7 @@ const OnlineDegrees = () => {
                   >
                     Stanford Online
                   </a>
-                  - Advance your education through Stanford's online degrees.
+                  - Advance your education through the online degrees of Stanford.
                 </li>
               </ul>
             </div>
@@ -76,11 +76,9 @@ const OnlineDegrees = () => {
               <h3 className="text-3xl font-semibold text-gray-900 mb-6">
                 Popular Online Degrees
               </h3>
-
-              {/* Master's Degrees */}
               <div className="bg-white hover:bg-slate-200 p-8 rounded-lg shadow-lg mb-6">
                 <h4 className="text-2xl font-semibold mb-4">
-                  Master's in Data Science
+                  Masters in Data Science
                 </h4>
                 <p className="text-gray-700 mb-4">
                   Dive deep into data analysis, machine learning, and
@@ -98,7 +96,7 @@ const OnlineDegrees = () => {
 
               <div className="bg-white  hover:bg-slate-200 p-8 rounded-lg shadow-lg mb-6">
                 <h4 className="text-2xl font-semibold mb-4">
-                  Master's in Business Administration (MBA)
+                  Masters in Business Administration (MBA)
                 </h4>
                 <p className="text-gray-700 mb-4">
                   Advance your business skills and leadership abilities with a
@@ -116,7 +114,7 @@ const OnlineDegrees = () => {
 
               <div className="bg-white hover:bg-slate-200 p-8 rounded-lg shadow-lg mb-6">
                 <h4 className="text-2xl font-semibold mb-4">
-                  Master's in Computer Science
+                  Masters in Computer Science
                 </h4>
                 <p className="text-gray-700 mb-4">
                   Gain in-depth knowledge in algorithms, software development,
@@ -131,11 +129,9 @@ const OnlineDegrees = () => {
                   Explore Program
                 </a>
               </div>
-
-              {/* Bachelor's Degrees */}
               <div className="bg-white hover:bg-slate-200 p-8 rounded-lg shadow-lg mb-6">
                 <h4 className="text-2xl font-semibold mb-4">
-                  Bachelor's in Healthcare Administration
+                  Bachelors in Healthcare Administration
                 </h4>
                 <p className="text-gray-700 mb-4">
                   Prepare for a career in healthcare management and
@@ -153,7 +149,7 @@ const OnlineDegrees = () => {
 
               <div className="bg-white hover:bg-slate-200 p-8 rounded-lg shadow-lg mb-6">
                 <h4 className="text-2xl font-semibold mb-4">
-                  Bachelor's in Engineering
+                  Bachelors in Engineering
                 </h4>
                 <p className="text-gray-700 mb-4">
                   Gain foundational knowledge in engineering principles and
@@ -178,18 +174,18 @@ const OnlineDegrees = () => {
                 .getElementById("chatbot-panel")
                 .classList.toggle("hidden")
             }
-            className="p-0 rounded-full shadow-none focus:outline-none" // Ensure no padding or border is applied
+            className="p-0 rounded-full shadow-none focus:outline-none" 
           >
             <img
               src="/images/chatbotimg.jpg"
-              className="w-16 h-16" // Adjust size as needed
-              alt="Chatbot" // Ensure alt text is provided for accessibility
+              className="w-16 h-16" 
+              alt="Chatbot" 
             />
           </button>
           <div
             id="chatbot-panel"
             className="hidden fixed bg-white border border-gray-300 shadow-lg p-4 rounded-lg w-80 h-96 overflow-y-auto" // Adjust width and height, added scroll
-            style={{ bottom: "80px", right: "10px" }} // Adjust these values as needed
+            style={{ bottom: "80px", right: "10px" }} 
           >
             <AiPage />
           </div>
