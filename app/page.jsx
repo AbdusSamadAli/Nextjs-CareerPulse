@@ -42,7 +42,7 @@ export default function HomePage() {
             <p className="text-lg mb-4">
               Are you looking to elevate your career? CareerPulse is your go-to
               platform for crafting standout resumes and gaining insights into
-              the different career options. Whether you're a recent graduate or a seasoned
+              the different career options. Whether you are a recent graduate or a seasoned
               professional, we provide tailored resources and AI-powered
               assistance to help you shine in your job search.
             </p>
